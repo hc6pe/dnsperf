@@ -6,4 +6,4 @@ RUN yum clean all
 RUN curl https://mirror.cedia.org.ec/queryfile-example-current.gz > /queryfile-latest.gz
 COPY run.sh /run.sh
 ENTRYPOINT ["/run.sh"]
-CMD ["--help"]
+#CMD ["--help"]
